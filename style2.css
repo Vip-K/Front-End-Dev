@@ -1,0 +1,160 @@
+body{
+	font-size: 16px;
+	
+	color: #fff;
+	font-family: 'oxygen', sans-serif;
+}
+
+#header-nav{
+	background-color: #B81484;
+	border: 0;
+	border-radius: 0;
+}
+
+ #logo-img{
+   background: url('images.png');
+   width: 100px;
+   height: 100px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+.navbar{
+	margin-bottom: 0px;
+}
+.navbar-brand{
+	position: relative;
+	left: 30px;
+	height: 110px;
+	width: auto;
+	padding: 0px;	
+}
+
+.navbar-brand h1{
+	font-weight: bold;
+	text-transform: uppercase;
+	/*text-shadow: 3px 0px 3px grey;*/
+	color: #CDE534;
+}
+
+.navbar-brand a:hover{
+	text-decoration: none;
+}
+
+.navbar-brand p{
+	color: #F3F7D4;
+}
+
+#navbar-listing a{
+	color: #B2D732;
+}
+
+#navbar-listing a:hover{
+	color: #F0F7D4;
+}
+
+.jumbotron {
+	/*background: url('jumbotron_x.jpg');*/
+	/*height: 500px;*/
+	margin: 0;
+	/*box-shadow: 2px 5px 10px #3F0C1F;*/
+	border: 2px solid #FFF;
+
+}
+
+ div#main-content.container-fluid {
+	padding: 0;
+}
+
+.container-fluid .jumbotron{
+	padding: 0px;
+}
+
+
+@media (min-width: 768px){
+	#navbar-listing{
+		padding-top: 20px;
+	}
+
+#navbar-listing li{
+		text-align: center;
+	}
+}
+
+.gap{
+	margin: 0px 0px 0px 7px;
+}
+
+.navbar-header button.navbar-toggle, .icon-bar{
+	border: 2px solid #B2D732;
+	border-radius: 50%;
+}
+
+.navbar-header button.navbar-toggle:hover{
+	background-color: #B81484;
+}
+
+.navbar-header button.navbar-toggle:focus{
+	background-color: #B81484;
+}
+
+.navbar-toggle{
+	margin-top: 25px;
+}
+
+#home-tiles{
+	margin: 0;
+}
+
+#home-tiles div{
+	padding-bottom: 5px;
+}
+
+#tile-1, #tile-2, #tile-3{
+	height: 250px;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+#tile-1:hover, #tile-2:hover, #tile-3:hover{
+	box-shadow: 0px 1px 5px 1px indianred;
+	border: 0;
+}
+
+#tile-1 {
+	background-image: url('tile-1.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#tile-2 {
+	background-image: url('tile-2.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#tile-1 span, #tile-2 span, #tile-3 span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	font-size: 1.6em;
+	text-align: center;
+	background-color: black;
+	opacity: 0.7;
+	color: whitesmoke;
+}
+
+@media (max-width: 767px){
+	#tile-1, #tile-2 {
+		width: 360px;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 399px){
+	#tile-1, #tile-2 {
+		width: 240px;
+		margin: 0 auto;
+	}
+}
